@@ -11,4 +11,21 @@ function noDuplicate (array){
       return unique;
 }
 const uniqueArray = noDuplicate(biriyaniKhor);
-console.log(uniqueArray);
+// console.log(uniqueArray);
+
+
+
+
+const srtArray = ['bakir', 'rakib', 'abdul', 'bakir', 'rakib']
+const numArray = [12,12,11,11,23,23,24,24];
+function duplicateNo (sortedArray){
+      const unique = [];
+      for (const item of sortedArray){
+            if(unique.includes(item)===false){
+                  unique.push(item);
+            }
+      }
+      return unique;
+}
+const uniqueArr = duplicateNo(srtArray);
+console.log(uniqueArr)
