@@ -27,5 +27,5 @@ function duplicateNo (sortedArray){
       }
       return unique;
 }
-const uniqueArr = duplicateNo(srtArray);
+const uniqueArr = duplicateNo(numArray);
 console.log(uniqueArr)
